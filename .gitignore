@@ -7,7 +7,8 @@ __pycache__/
 *.so
 
 # 隐藏文件
-.*
+**/.* # 忽略所有目录下的以点开头的文件
+!.gitignore # 但不忽略 .gitignore 文件
 
 # Distribution / packaging
 .Python
