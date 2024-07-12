@@ -161,6 +161,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 # 隐藏文件
-**/.* # 忽略所有目录下的以点开头的文件
+*\.* # 忽略所有目录下的以点开头的文件
 .ok_history
 !.gitignore # 但不忽略 .gitignore 文件
+# Ignore .ok_storage.* files in any Labs subdirectory
+Labs/**/.ok_storage.*
+Projects/**/.ok_storage.*
+Homeworks/**/.ok_storage.*
